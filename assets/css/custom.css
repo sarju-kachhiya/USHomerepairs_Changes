@@ -1,0 +1,125 @@
+.hero-image-overlay::after {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 129, 215, 0.75);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+html .scroll-to-top {
+    bottom: 10px;
+    border-radius: 5px;
+    min-height: 45px;
+    min-width: 45px;
+    background: #00bff3;
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:focus {
+    background: #183f72;
+    color: #ffffff;
+}
+
+#header .header-body {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.coregistration-wrapper {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+}
+
+.coregistration-image img {
+    max-width: 350px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.offwall-section .card .card-body {
+    height: 100%;
+}
+
+.custom-card-style-1 {
+    border-radius: 15px;
+}
+
+.ph-terms-condition-section,
+.ph-privacy-policy-section {
+    padding: 80px 0;
+}
+
+.ph-tc-content-area h3,
+.ph-pp-content-area h3 {
+    color: #212529;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ph-unsubscribe-page-wrapper {
+    padding: 80px 0;
+}
+
+.ph-unsubscribe-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1199px) {
+    .custom-carousel-box-shadow-1 {
+        position: relative;
+    }
+    .custom-carousel-box-shadow-1:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 65%;
+        height: 0px;
+        box-shadow: 0 0 110px 180px rgba(0, 0, 0, 0.03);
+        transform: translate3d(-50%, -50%, 0);
+        z-index: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .ph-terms-condition-section,
+    .ph-privacy-policy-section {
+        padding: 60px 0;
+    }
+    #footer .footer-nav nav>ul {
+        justify-content: center;
+    }
+    .ph-unsubscribe-page-wrapper {
+        padding: 60px 0;
+    }
+    .ph-unsubscribe-title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ph-terms-condition-section,
+    .ph-privacy-policy-section {
+        padding: 50px 0;
+    }
+    .ph-unsubscribe-page-wrapper {
+        padding: 50px 0;
+    }
+    .ph-unsubscribe-title {
+        font-size: 28px;
+    }
+  .babckground-image{
+        width: 310px;
+    }
+    .main-image{
+        width: 198px;
+    }
+}
+.color-red{
+    color:red;
+}
+#footer .social-icons li a {
+    color: #fff !important;
+}
